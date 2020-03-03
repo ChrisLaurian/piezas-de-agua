@@ -1,5 +1,6 @@
 .Cabecera{
   display: flex;
+  justify-content: center;
 }
 
 #Logo img{
