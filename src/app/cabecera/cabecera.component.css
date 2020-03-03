@@ -1,0 +1,18 @@
+.Cabecera{
+  display: flex;
+}
+
+#Logo img{
+  width: 13em;
+  height: 13em;
+  margin: 2em;
+}
+
+#Leyenda p{
+  margin: 5em 2em 2em 2em;
+  width: 45em;
+}
+
+#Registrarse, #Entrar{
+  margin: 7em 2em 2em 2em;
+}
