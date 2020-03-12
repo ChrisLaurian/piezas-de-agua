@@ -1,0 +1,12 @@
+.Carrusel{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  
+}
+
+.Carrusel img{
+  height: 25em;
+  width: 20em;
+  border-radius: 20px;
+}
