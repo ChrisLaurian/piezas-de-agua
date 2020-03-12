@@ -5,4 +5,13 @@
  .Nav{
    display: flex;
    justify-content: center;
+   max-width: 100%;
+ }
+
+ .Nav div a{
+   margin-left: 4em;
+ }
+
+ .form-inline{
+   margin-left: 9px;
  }

@@ -1,19 +1,38 @@
 .Cabecera{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  height: 15em;
+  width: 100%;
+  align-items: center;
+}
+
+#Logo{
+  display: flex;
+  flex-grow: 1;
+  padding: 2em;
 }
 
 #Logo img{
-  width: 13em;
-  height: 13em;
-  margin: 2em;
+  width: 22em;
+  height: 11em;
+  max-width: 100%;
 }
 
-#Leyenda p{
-  margin: 5em 2em 2em 2em;
-  width: 45em;
+#Leyenda{
+  display: flex;
+  flex-grow: 2;
+  align-items: center;
+  padding: 2em;
 }
 
-#Registrarse, #Entrar{
-  margin: 7em 2em 2em 2em;
+.Botones{
+  display: flex;
+  flex-grow: 1;
+  padding: 2em;
 }
+
+.Botones button{
+  margin-left: 2em;
+}
+
+
